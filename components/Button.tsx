@@ -4,7 +4,7 @@ import React from "react";
 interface ButtonProps {
   type: "button";
   title: string;
-  variant: "btn_dark_green";
+  variant: "btn_dark_green" | "btn_green" | "btn_white_text";
   icon?: string;
 }
 
