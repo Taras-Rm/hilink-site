@@ -3,8 +3,8 @@ import React from "react";
 
 function Guide() {
   return (
-    <section className="flex flex-col w-full pb-24">
-      <div className="padding-container max-container flex flex-col pb-20 sm:flex-row">
+    <section className="flex flex-col w-full">
+      <div className="padding-container max-container flex flex-col sm:flex-row">
         <div className="w-2/3">
           <Image
             src={"/camp.svg"}
@@ -13,7 +13,7 @@ function Guide() {
             alt="camp"
             className="w-10 lg:w-[50px]"
           />
-          <p className="uppercase купгдфк-18 text-green-50">
+          <p className="uppercase regular-18 text-green-50">
             We are here for you
           </p>
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">

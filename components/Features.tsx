@@ -48,15 +48,10 @@ interface FeatureItemProps {
   variant: string;
 }
 
-const FeatureItem = ({
-  title,
-  icon,
-  description,
-  variant,
-}: FeatureItemProps) => {
+const FeatureItem = ({ title, icon, description }: FeatureItemProps) => {
   return (
     <li className="flex w-full flex-1 flex-col items-start">
-      <div className={`bg-${variant}-50 w-fit p-4 lg:p-7 rounded-full`}>
+      <div className={`bg-green-50 w-fit p-4 lg:p-7 rounded-full`}>
         <Image src={icon} width={28} height={28} alt="calendar" />
       </div>
       <h4 className="bold-20 lg:bold-32 mt-5 capitalize">{title}</h4>
