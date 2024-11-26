@@ -31,7 +31,7 @@ function GetApp() {
           </div>
         </div>
         <div className="flex flex-1 items-center justify-end">
-          <Image src={"/phones.png"} alt="phones" height={550} width={870} />
+          <Image src={"./phones.png"} alt="phones" height={550} width={870} />
         </div>
       </div>
     </section>

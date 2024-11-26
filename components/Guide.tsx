@@ -7,7 +7,7 @@ function Guide() {
       <div className="padding-container max-container flex flex-col sm:flex-row">
         <div className="w-2/3">
           <Image
-            src={"/camp.svg"}
+            src={"./camp.svg"}
             width={50}
             height={50}
             alt="camp"
@@ -30,7 +30,7 @@ function Guide() {
       <div className="flexCenter w-full max-container relative h-[400px]">
         <Image
           className="w-full object-cover object-center 2xl:rounded-5xl"
-          src={"/boat.png"}
+          src={"./boat.png"}
           alt="boat"
           width={1440}
           height={580}
@@ -38,7 +38,7 @@ function Guide() {
 
         <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
           <Image
-            src={"/meter.svg"}
+            src={"./meter.svg"}
             alt="meter"
             width={16}
             height={158}

@@ -8,7 +8,7 @@ function Features() {
       <div className="relative">
         <h2 className="bold-40 lg-bold-[64px]">Our features can be online</h2>
         <Image
-          src={"/camp.svg"}
+          src={"./camp.svg"}
           width={50}
           height={50}
           alt="camp"
@@ -18,7 +18,7 @@ function Features() {
       <div className="mt-8 flex w-full relative">
         <div className="relative flex flex-1 lg:min-h-[700px]">
           <Image
-            src={"/phone.png"}
+            src={"./phone.png"}
             alt="phone"
             width={440}
             height={1000}

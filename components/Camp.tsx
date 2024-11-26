@@ -22,7 +22,7 @@ const CampSite = ({
       <div className="flex flex-col h-full items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
-            <Image src={"folded-map.svg"} width={28} height={28} alt="map" />
+            <Image src={"./folded-map.svg"} width={28} height={28} alt="map" />
           </div>
           <div className="flex flex-col gap-1 text-white">
             <h4 className="bold-18">{title}</h4>
@@ -79,7 +79,7 @@ function Camp() {
           </p>
           <Image
             className="camp-quote"
-            src={"quote.svg"}
+            src={"./quote.svg"}
             alt="quote"
             width={186}
             height={219}

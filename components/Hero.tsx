@@ -10,7 +10,7 @@ function Hero() {
       {/* Left */}
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image
-          src={"/camp.svg"}
+          src={"./camp.svg"}
           width={50}
           height={50}
           alt="camp"
@@ -28,7 +28,7 @@ function Hero() {
               .fill(1)
               .map((_, idx) => (
                 <Image
-                  src={"/star.svg"}
+                  src={"./star.svg"}
                   width={24}
                   height={24}
                   key={idx}
@@ -59,7 +59,7 @@ function Hero() {
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="regular-16 text-gray-20">Location</p>
-              <Image src={"/close.svg"} width={24} height={24} alt="close" />
+              <Image src={"./close.svg"} width={24} height={24} alt="close" />
             </div>
             <p className="bold-20 text-white">Aguas Calientes</p>
           </div>
