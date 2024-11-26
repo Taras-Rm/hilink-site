@@ -23,7 +23,7 @@ function Navbar() {
 
       <div className="hidden lg:flexCenter">
         <Button
-          icon="/user.svg"
+          icon="./user.svg"
           title="Login"
           variant="btn_dark_green"
           type="button"
@@ -31,7 +31,7 @@ function Navbar() {
       </div>
 
       <Image
-        src="/menu.svg"
+        src="./menu.svg"
         width={32}
         height={32}
         alt="menu"

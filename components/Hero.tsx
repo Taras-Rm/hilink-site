@@ -49,7 +49,7 @@ function Hero() {
             type="button"
             variant="btn_white_text"
             title="How we work?"
-            icon="/play.svg"
+            icon="./play.svg"
           />
         </div>
       </div>

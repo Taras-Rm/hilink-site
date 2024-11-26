@@ -17,14 +17,14 @@ function GetApp() {
             <Button
               title="Download App"
               type="button"
-              icon="/apple.svg"
+              icon="./apple.svg"
               variant="btn_white"
               full
             />
             <Button
               title="Play Store"
               type="button"
-              icon="/android.svg"
+              icon="./android.svg"
               variant="btn_dark_green_outline"
               full
             />
